@@ -1,0 +1,11 @@
+C:\Users\kjlop643\source\repos\vending machine\vending machine\bin\Debug\vending machine.exe.config
+C:\Users\kjlop643\source\repos\vending machine\vending machine\bin\Debug\vending machine.exe
+C:\Users\kjlop643\source\repos\vending machine\vending machine\bin\Debug\vending machine.pdb
+C:\Users\kjlop643\source\repos\vending machine\vending machine\bin\Debug\vending machine.xml
+C:\Users\kjlop643\source\repos\vending machine\vending machine\obj\Debug\vending machine.vbprojAssemblyReference.cache
+C:\Users\kjlop643\source\repos\vending machine\vending machine\obj\Debug\vending_machine.Form1.resources
+C:\Users\kjlop643\source\repos\vending machine\vending machine\obj\Debug\vending_machine.Resources.resources
+C:\Users\kjlop643\source\repos\vending machine\vending machine\obj\Debug\vending machine.vbproj.GenerateResource.cache
+C:\Users\kjlop643\source\repos\vending machine\vending machine\obj\Debug\vending machine.exe
+C:\Users\kjlop643\source\repos\vending machine\vending machine\obj\Debug\vending machine.xml
+C:\Users\kjlop643\source\repos\vending machine\vending machine\obj\Debug\vending machine.pdb
