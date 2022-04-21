@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -58,6 +59,7 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -74,7 +76,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(205, 66)
+        Me.Button1.Location = New System.Drawing.Point(206, 66)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(45, 20)
         Me.Button1.TabIndex = 0
@@ -83,7 +85,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(205, 89)
+        Me.Button2.Location = New System.Drawing.Point(206, 89)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(45, 20)
         Me.Button2.TabIndex = 1
@@ -92,7 +94,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(205, 115)
+        Me.Button3.Location = New System.Drawing.Point(206, 115)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(45, 20)
         Me.Button3.TabIndex = 2
@@ -101,7 +103,7 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(205, 141)
+        Me.Button4.Location = New System.Drawing.Point(206, 141)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(45, 20)
         Me.Button4.TabIndex = 3
@@ -113,7 +115,7 @@ Partial Class Form1
         Me.canbuy.AutoSize = True
         Me.canbuy.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.canbuy.ForeColor = System.Drawing.Color.Red
-        Me.canbuy.Location = New System.Drawing.Point(193, 52)
+        Me.canbuy.Location = New System.Drawing.Point(194, 52)
         Me.canbuy.Name = "canbuy"
         Me.canbuy.Size = New System.Drawing.Size(66, 13)
         Me.canbuy.TabIndex = 4
@@ -122,7 +124,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(4, 40)
+        Me.Label2.Location = New System.Drawing.Point(5, 40)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(14, 13)
         Me.Label2.TabIndex = 17
@@ -131,7 +133,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(4, 96)
+        Me.Label3.Location = New System.Drawing.Point(5, 96)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(14, 13)
         Me.Label3.TabIndex = 18
@@ -140,7 +142,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(4, 152)
+        Me.Label4.Location = New System.Drawing.Point(5, 152)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(14, 13)
         Me.Label4.TabIndex = 19
@@ -149,7 +151,7 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(42, 5)
+        Me.Label5.Location = New System.Drawing.Point(43, 5)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(13, 13)
         Me.Label5.TabIndex = 20
@@ -158,7 +160,7 @@ Partial Class Form1
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(97, 5)
+        Me.Label6.Location = New System.Drawing.Point(98, 5)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(13, 13)
         Me.Label6.TabIndex = 21
@@ -167,7 +169,7 @@ Partial Class Form1
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(154, 5)
+        Me.Label7.Location = New System.Drawing.Point(155, 5)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(13, 13)
         Me.Label7.TabIndex = 22
@@ -176,7 +178,7 @@ Partial Class Form1
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(4, 208)
+        Me.Label8.Location = New System.Drawing.Point(5, 208)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(15, 13)
         Me.Label8.TabIndex = 23
@@ -185,7 +187,7 @@ Partial Class Form1
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(193, 40)
+        Me.Label9.Location = New System.Drawing.Point(194, 40)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(30, 13)
         Me.Label9.TabIndex = 24
@@ -194,7 +196,7 @@ Partial Class Form1
         'totallabel
         '
         Me.totallabel.AutoSize = True
-        Me.totallabel.Location = New System.Drawing.Point(222, 40)
+        Me.totallabel.Location = New System.Drawing.Point(223, 40)
         Me.totallabel.Name = "totallabel"
         Me.totallabel.Size = New System.Drawing.Size(28, 13)
         Me.totallabel.TabIndex = 25
@@ -202,7 +204,7 @@ Partial Class Form1
         '
         'Button17
         '
-        Me.Button17.Location = New System.Drawing.Point(196, 167)
+        Me.Button17.Location = New System.Drawing.Point(197, 167)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(20, 20)
         Me.Button17.TabIndex = 26
@@ -211,7 +213,7 @@ Partial Class Form1
         '
         'Button18
         '
-        Me.Button18.Location = New System.Drawing.Point(214, 167)
+        Me.Button18.Location = New System.Drawing.Point(215, 167)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(20, 20)
         Me.Button18.TabIndex = 27
@@ -220,7 +222,7 @@ Partial Class Form1
         '
         'Button19
         '
-        Me.Button19.Location = New System.Drawing.Point(231, 167)
+        Me.Button19.Location = New System.Drawing.Point(232, 167)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(20, 20)
         Me.Button19.TabIndex = 28
@@ -229,7 +231,7 @@ Partial Class Form1
         '
         'Button20
         '
-        Me.Button20.Location = New System.Drawing.Point(231, 185)
+        Me.Button20.Location = New System.Drawing.Point(232, 185)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(20, 20)
         Me.Button20.TabIndex = 31
@@ -238,7 +240,7 @@ Partial Class Form1
         '
         'Button21
         '
-        Me.Button21.Location = New System.Drawing.Point(214, 185)
+        Me.Button21.Location = New System.Drawing.Point(215, 185)
         Me.Button21.Name = "Button21"
         Me.Button21.Size = New System.Drawing.Size(20, 20)
         Me.Button21.TabIndex = 30
@@ -247,7 +249,7 @@ Partial Class Form1
         '
         'Button22
         '
-        Me.Button22.Location = New System.Drawing.Point(196, 185)
+        Me.Button22.Location = New System.Drawing.Point(197, 185)
         Me.Button22.Name = "Button22"
         Me.Button22.Size = New System.Drawing.Size(20, 20)
         Me.Button22.TabIndex = 29
@@ -256,7 +258,7 @@ Partial Class Form1
         '
         'Button25
         '
-        Me.Button25.Location = New System.Drawing.Point(214, 204)
+        Me.Button25.Location = New System.Drawing.Point(215, 204)
         Me.Button25.Name = "Button25"
         Me.Button25.Size = New System.Drawing.Size(20, 20)
         Me.Button25.TabIndex = 32
@@ -266,7 +268,7 @@ Partial Class Form1
         'PictureBox10
         '
         Me.PictureBox10.Image = Global.vending_machine.My.Resources.Resources.ape
-        Me.PictureBox10.Location = New System.Drawing.Point(136, 189)
+        Me.PictureBox10.Location = New System.Drawing.Point(137, 189)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -276,7 +278,7 @@ Partial Class Form1
         'PictureBox11
         '
         Me.PictureBox11.Image = Global.vending_machine.My.Resources.Resources.bannana
-        Me.PictureBox11.Location = New System.Drawing.Point(80, 189)
+        Me.PictureBox11.Location = New System.Drawing.Point(81, 189)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -286,7 +288,7 @@ Partial Class Form1
         'PictureBox12
         '
         Me.PictureBox12.Image = Global.vending_machine.My.Resources.Resources.glue
-        Me.PictureBox12.Location = New System.Drawing.Point(24, 189)
+        Me.PictureBox12.Location = New System.Drawing.Point(25, 189)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -296,7 +298,7 @@ Partial Class Form1
         'PictureBox7
         '
         Me.PictureBox7.Image = Global.vending_machine.My.Resources.Resources.wizzard
-        Me.PictureBox7.Location = New System.Drawing.Point(136, 133)
+        Me.PictureBox7.Location = New System.Drawing.Point(137, 133)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -306,7 +308,7 @@ Partial Class Form1
         'PictureBox8
         '
         Me.PictureBox8.Image = Global.vending_machine.My.Resources.Resources.super
-        Me.PictureBox8.Location = New System.Drawing.Point(80, 133)
+        Me.PictureBox8.Location = New System.Drawing.Point(81, 133)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -316,7 +318,7 @@ Partial Class Form1
         'PictureBox9
         '
         Me.PictureBox9.Image = Global.vending_machine.My.Resources.Resources.subm
-        Me.PictureBox9.Location = New System.Drawing.Point(24, 133)
+        Me.PictureBox9.Location = New System.Drawing.Point(25, 133)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -326,7 +328,7 @@ Partial Class Form1
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.vending_machine.My.Resources.Resources.pirate
-        Me.PictureBox4.Location = New System.Drawing.Point(136, 77)
+        Me.PictureBox4.Location = New System.Drawing.Point(137, 77)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -336,7 +338,7 @@ Partial Class Form1
         'PictureBox5
         '
         Me.PictureBox5.Image = Global.vending_machine.My.Resources.Resources.ninja
-        Me.PictureBox5.Location = New System.Drawing.Point(80, 77)
+        Me.PictureBox5.Location = New System.Drawing.Point(81, 77)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -346,7 +348,7 @@ Partial Class Form1
         'PictureBox6
         '
         Me.PictureBox6.Image = Global.vending_machine.My.Resources.Resources.ice
-        Me.PictureBox6.Location = New System.Drawing.Point(24, 77)
+        Me.PictureBox6.Location = New System.Drawing.Point(25, 77)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -356,7 +358,7 @@ Partial Class Form1
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.vending_machine.My.Resources.Resources.engine
-        Me.PictureBox3.Location = New System.Drawing.Point(136, 21)
+        Me.PictureBox3.Location = New System.Drawing.Point(137, 21)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -366,7 +368,7 @@ Partial Class Form1
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.vending_machine.My.Resources.Resources.boomrang
-        Me.PictureBox2.Location = New System.Drawing.Point(80, 21)
+        Me.PictureBox2.Location = New System.Drawing.Point(81, 21)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -376,7 +378,7 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.vending_machine.My.Resources.Resources.dart
-        Me.PictureBox1.Location = New System.Drawing.Point(24, 21)
+        Me.PictureBox1.Location = New System.Drawing.Point(25, 21)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -386,7 +388,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(222, 21)
+        Me.Label1.Location = New System.Drawing.Point(223, 21)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(0, 13)
         Me.Label1.TabIndex = 48
@@ -395,7 +397,7 @@ Partial Class Form1
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(206, 21)
+        Me.Label10.Location = New System.Drawing.Point(207, 21)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(0, 13)
         Me.Label10.TabIndex = 49
@@ -404,10 +406,14 @@ Partial Class Form1
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(10, 245)
+        Me.ListBox1.Location = New System.Drawing.Point(11, 245)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(240, 69)
         Me.ListBox1.TabIndex = 50
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
         '
         'Form1
         '
@@ -505,4 +511,5 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents Timer1 As Timer
 End Class
