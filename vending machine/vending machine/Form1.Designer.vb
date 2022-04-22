@@ -59,7 +59,20 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.broke_boy = New System.Windows.Forms.Timer(Me.components)
+        Me.stop_broke_alarm = New System.Windows.Forms.Timer(Me.components)
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -76,191 +89,205 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(206, 66)
+        Me.Button1.Location = New System.Drawing.Point(282, 89)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(45, 20)
+        Me.Button1.Size = New System.Drawing.Size(84, 30)
         Me.Button1.TabIndex = 0
+        Me.Button1.Tag = "0.05"
         Me.Button1.Text = "0.05$"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(206, 89)
+        Me.Button2.Location = New System.Drawing.Point(282, 125)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(45, 20)
+        Me.Button2.Size = New System.Drawing.Size(84, 30)
         Me.Button2.TabIndex = 1
+        Me.Button2.Tag = "0.1"
         Me.Button2.Text = "0.10$"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(206, 115)
+        Me.Button3.Location = New System.Drawing.Point(282, 161)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(45, 20)
+        Me.Button3.Size = New System.Drawing.Size(84, 30)
         Me.Button3.TabIndex = 2
+        Me.Button3.Tag = "0.25"
         Me.Button3.Text = "0.25$"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(206, 141)
+        Me.Button4.Location = New System.Drawing.Point(282, 197)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(45, 20)
+        Me.Button4.Size = New System.Drawing.Size(84, 30)
         Me.Button4.TabIndex = 3
+        Me.Button4.Tag = "1"
         Me.Button4.Text = "1.00$"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'canbuy
         '
         Me.canbuy.AutoSize = True
-        Me.canbuy.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.canbuy.BackColor = System.Drawing.Color.Cyan
+        Me.canbuy.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
         Me.canbuy.ForeColor = System.Drawing.Color.Red
-        Me.canbuy.Location = New System.Drawing.Point(194, 52)
+        Me.canbuy.Location = New System.Drawing.Point(266, 64)
         Me.canbuy.Name = "canbuy"
-        Me.canbuy.Size = New System.Drawing.Size(66, 13)
+        Me.canbuy.Size = New System.Drawing.Size(112, 22)
         Me.canbuy.TabIndex = 4
         Me.canbuy.Text = "insert money"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(5, 40)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label2.Location = New System.Drawing.Point(1, 56)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(14, 13)
+        Me.Label2.Size = New System.Drawing.Size(22, 22)
         Me.Label2.TabIndex = 17
         Me.Label2.Text = "A"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(5, 96)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label3.Location = New System.Drawing.Point(1, 129)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(14, 13)
+        Me.Label3.Size = New System.Drawing.Size(22, 22)
         Me.Label3.TabIndex = 18
         Me.Label3.Text = "B"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(5, 152)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label4.Location = New System.Drawing.Point(0, 201)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(14, 13)
+        Me.Label4.Size = New System.Drawing.Size(23, 22)
         Me.Label4.TabIndex = 19
         Me.Label4.Text = "C"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(43, 5)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label5.Location = New System.Drawing.Point(50, -1)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(13, 13)
+        Me.Label5.Size = New System.Drawing.Size(20, 22)
         Me.Label5.TabIndex = 20
         Me.Label5.Text = "1"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(98, 5)
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label6.Location = New System.Drawing.Point(132, -1)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(13, 13)
+        Me.Label6.Size = New System.Drawing.Size(20, 22)
         Me.Label6.TabIndex = 21
         Me.Label6.Text = "2"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(155, 5)
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label7.Location = New System.Drawing.Point(217, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(13, 13)
+        Me.Label7.Size = New System.Drawing.Size(20, 22)
         Me.Label7.TabIndex = 22
         Me.Label7.Text = "3"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(5, 208)
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label8.Location = New System.Drawing.Point(0, 292)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(15, 13)
+        Me.Label8.Size = New System.Drawing.Size(23, 22)
         Me.Label8.TabIndex = 23
         Me.Label8.Text = "D"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(194, 40)
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label9.Location = New System.Drawing.Point(271, 24)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(30, 13)
+        Me.Label9.Size = New System.Drawing.Size(49, 22)
         Me.Label9.TabIndex = 24
         Me.Label9.Text = "total:"
         '
         'totallabel
         '
         Me.totallabel.AutoSize = True
-        Me.totallabel.Location = New System.Drawing.Point(223, 40)
+        Me.totallabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.totallabel.Location = New System.Drawing.Point(321, 24)
         Me.totallabel.Name = "totallabel"
-        Me.totallabel.Size = New System.Drawing.Size(28, 13)
+        Me.totallabel.Size = New System.Drawing.Size(45, 22)
         Me.totallabel.TabIndex = 25
         Me.totallabel.Text = "0.00"
         '
         'Button17
         '
-        Me.Button17.Location = New System.Drawing.Point(197, 167)
+        Me.Button17.Location = New System.Drawing.Point(282, 257)
         Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(20, 20)
+        Me.Button17.Size = New System.Drawing.Size(30, 30)
         Me.Button17.TabIndex = 26
         Me.Button17.Text = "1"
         Me.Button17.UseVisualStyleBackColor = True
         '
         'Button18
         '
-        Me.Button18.Location = New System.Drawing.Point(215, 167)
+        Me.Button18.Location = New System.Drawing.Point(309, 257)
         Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(20, 20)
+        Me.Button18.Size = New System.Drawing.Size(30, 30)
         Me.Button18.TabIndex = 27
         Me.Button18.Text = "2"
         Me.Button18.UseVisualStyleBackColor = True
         '
         'Button19
         '
-        Me.Button19.Location = New System.Drawing.Point(232, 167)
+        Me.Button19.Location = New System.Drawing.Point(336, 257)
         Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(20, 20)
+        Me.Button19.Size = New System.Drawing.Size(30, 30)
         Me.Button19.TabIndex = 28
         Me.Button19.Text = "3"
         Me.Button19.UseVisualStyleBackColor = True
         '
         'Button20
         '
-        Me.Button20.Location = New System.Drawing.Point(232, 185)
+        Me.Button20.Location = New System.Drawing.Point(336, 284)
         Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(20, 20)
+        Me.Button20.Size = New System.Drawing.Size(30, 30)
         Me.Button20.TabIndex = 31
         Me.Button20.Text = "C"
         Me.Button20.UseVisualStyleBackColor = True
         '
         'Button21
         '
-        Me.Button21.Location = New System.Drawing.Point(215, 185)
+        Me.Button21.Location = New System.Drawing.Point(309, 284)
         Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(20, 20)
+        Me.Button21.Size = New System.Drawing.Size(30, 30)
         Me.Button21.TabIndex = 30
         Me.Button21.Text = "B"
         Me.Button21.UseVisualStyleBackColor = True
         '
         'Button22
         '
-        Me.Button22.Location = New System.Drawing.Point(197, 185)
+        Me.Button22.Location = New System.Drawing.Point(282, 284)
         Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(20, 20)
+        Me.Button22.Size = New System.Drawing.Size(30, 30)
         Me.Button22.TabIndex = 29
         Me.Button22.Text = "A"
         Me.Button22.UseVisualStyleBackColor = True
         '
         'Button25
         '
-        Me.Button25.Location = New System.Drawing.Point(215, 204)
+        Me.Button25.Location = New System.Drawing.Point(309, 310)
         Me.Button25.Name = "Button25"
-        Me.Button25.Size = New System.Drawing.Size(20, 20)
+        Me.Button25.Size = New System.Drawing.Size(30, 30)
         Me.Button25.TabIndex = 32
         Me.Button25.Text = "D"
         Me.Button25.UseVisualStyleBackColor = True
@@ -268,9 +295,9 @@ Partial Class Form1
         'PictureBox10
         '
         Me.PictureBox10.Image = Global.vending_machine.My.Resources.Resources.ape
-        Me.PictureBox10.Location = New System.Drawing.Point(137, 189)
+        Me.PictureBox10.Location = New System.Drawing.Point(186, 267)
         Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox10.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox10.TabIndex = 47
         Me.PictureBox10.TabStop = False
@@ -278,9 +305,9 @@ Partial Class Form1
         'PictureBox11
         '
         Me.PictureBox11.Image = Global.vending_machine.My.Resources.Resources.bannana
-        Me.PictureBox11.Location = New System.Drawing.Point(81, 189)
+        Me.PictureBox11.Location = New System.Drawing.Point(105, 267)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox11.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox11.TabIndex = 46
         Me.PictureBox11.TabStop = False
@@ -288,9 +315,9 @@ Partial Class Form1
         'PictureBox12
         '
         Me.PictureBox12.Image = Global.vending_machine.My.Resources.Resources.glue
-        Me.PictureBox12.Location = New System.Drawing.Point(25, 189)
+        Me.PictureBox12.Location = New System.Drawing.Point(24, 267)
         Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox12.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox12.TabIndex = 45
         Me.PictureBox12.TabStop = False
@@ -298,9 +325,9 @@ Partial Class Form1
         'PictureBox7
         '
         Me.PictureBox7.Image = Global.vending_machine.My.Resources.Resources.wizzard
-        Me.PictureBox7.Location = New System.Drawing.Point(137, 133)
+        Me.PictureBox7.Location = New System.Drawing.Point(186, 186)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox7.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox7.TabIndex = 44
         Me.PictureBox7.TabStop = False
@@ -308,9 +335,9 @@ Partial Class Form1
         'PictureBox8
         '
         Me.PictureBox8.Image = Global.vending_machine.My.Resources.Resources.super
-        Me.PictureBox8.Location = New System.Drawing.Point(81, 133)
+        Me.PictureBox8.Location = New System.Drawing.Point(105, 186)
         Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox8.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox8.TabIndex = 43
         Me.PictureBox8.TabStop = False
@@ -318,9 +345,9 @@ Partial Class Form1
         'PictureBox9
         '
         Me.PictureBox9.Image = Global.vending_machine.My.Resources.Resources.subm
-        Me.PictureBox9.Location = New System.Drawing.Point(25, 133)
+        Me.PictureBox9.Location = New System.Drawing.Point(24, 186)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox9.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox9.TabIndex = 42
         Me.PictureBox9.TabStop = False
@@ -328,9 +355,9 @@ Partial Class Form1
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.vending_machine.My.Resources.Resources.pirate
-        Me.PictureBox4.Location = New System.Drawing.Point(137, 77)
+        Me.PictureBox4.Location = New System.Drawing.Point(186, 105)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox4.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox4.TabIndex = 41
         Me.PictureBox4.TabStop = False
@@ -338,9 +365,9 @@ Partial Class Form1
         'PictureBox5
         '
         Me.PictureBox5.Image = Global.vending_machine.My.Resources.Resources.ninja
-        Me.PictureBox5.Location = New System.Drawing.Point(81, 77)
+        Me.PictureBox5.Location = New System.Drawing.Point(105, 105)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox5.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox5.TabIndex = 40
         Me.PictureBox5.TabStop = False
@@ -348,9 +375,9 @@ Partial Class Form1
         'PictureBox6
         '
         Me.PictureBox6.Image = Global.vending_machine.My.Resources.Resources.ice
-        Me.PictureBox6.Location = New System.Drawing.Point(25, 77)
+        Me.PictureBox6.Location = New System.Drawing.Point(24, 105)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox6.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox6.TabIndex = 39
         Me.PictureBox6.TabStop = False
@@ -358,9 +385,9 @@ Partial Class Form1
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.vending_machine.My.Resources.Resources.engine
-        Me.PictureBox3.Location = New System.Drawing.Point(137, 21)
+        Me.PictureBox3.Location = New System.Drawing.Point(190, 24)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox3.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox3.TabIndex = 38
         Me.PictureBox3.TabStop = False
@@ -368,9 +395,9 @@ Partial Class Form1
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.vending_machine.My.Resources.Resources.boomrang
-        Me.PictureBox2.Location = New System.Drawing.Point(81, 21)
+        Me.PictureBox2.Location = New System.Drawing.Point(105, 24)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox2.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 37
         Me.PictureBox2.TabStop = False
@@ -378,9 +405,9 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.vending_machine.My.Resources.Resources.dart
-        Me.PictureBox1.Location = New System.Drawing.Point(25, 21)
+        Me.PictureBox1.Location = New System.Drawing.Point(24, 24)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox1.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 36
         Me.PictureBox1.TabStop = False
@@ -388,38 +415,165 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(223, 21)
+        Me.Label1.Location = New System.Drawing.Point(373, 329)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(0, 13)
         Me.Label1.TabIndex = 48
         Me.Label1.Tag = ""
+        Me.Label1.Visible = False
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(207, 21)
+        Me.Label10.Location = New System.Drawing.Point(357, 329)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(0, 13)
         Me.Label10.TabIndex = 49
         Me.Label10.Tag = ""
+        Me.Label10.Visible = False
         '
         'ListBox1
         '
+        Me.ListBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(11, 245)
+        Me.ListBox1.ItemHeight = 16
+        Me.ListBox1.Location = New System.Drawing.Point(1, 352)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(240, 69)
+        Me.ListBox1.Size = New System.Drawing.Size(378, 100)
         Me.ListBox1.TabIndex = 50
         '
-        'Timer1
+        'broke_boy
         '
-        Me.Timer1.Interval = 1000
+        '
+        'stop_broke_alarm
+        '
+        Me.stop_broke_alarm.Interval = 1100
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(21, 86)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(34, 13)
+        Me.Label11.TabIndex = 51
+        Me.Label11.Text = "$0.50"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(105, 86)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(34, 13)
+        Me.Label12.TabIndex = 52
+        Me.Label12.Text = "$1.50"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(186, 86)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(34, 13)
+        Me.Label13.TabIndex = 53
+        Me.Label13.Text = "$2.00"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(186, 167)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(28, 13)
+        Me.Label14.TabIndex = 56
+        Me.Label14.Text = "1.70"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(105, 167)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(34, 13)
+        Me.Label15.TabIndex = 55
+        Me.Label15.Text = "$1.25"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(21, 167)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(34, 13)
+        Me.Label16.TabIndex = 54
+        Me.Label16.Text = "$0.75"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(186, 248)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(34, 13)
+        Me.Label17.TabIndex = 59
+        Me.Label17.Text = "$2.00"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(105, 248)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(34, 13)
+        Me.Label18.TabIndex = 58
+        Me.Label18.Text = "$7.00"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Location = New System.Drawing.Point(21, 248)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(34, 13)
+        Me.Label19.TabIndex = 57
+        Me.Label19.Text = "$1.35"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(186, 329)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(46, 13)
+        Me.Label20.TabIndex = 62
+        Me.Label20.Text = "$100.00"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(105, 329)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(34, 13)
+        Me.Label21.TabIndex = 61
+        Me.Label21.Text = "$3.00"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(21, 329)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(34, 13)
+        Me.Label22.TabIndex = 60
+        Me.Label22.Text = "$1.20"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(263, 327)
+        Me.ClientSize = New System.Drawing.Size(389, 463)
+        Me.Controls.Add(Me.Label20)
+        Me.Controls.Add(Me.Label21)
+        Me.Controls.Add(Me.Label22)
+        Me.Controls.Add(Me.Label17)
+        Me.Controls.Add(Me.Label18)
+        Me.Controls.Add(Me.Label19)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.Label16)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label1)
@@ -457,7 +611,6 @@ Partial Class Form1
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
@@ -511,5 +664,18 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents Timer1 As Timer
+    Friend WithEvents broke_boy As Timer
+    Friend WithEvents stop_broke_alarm As Timer
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label22 As Label
 End Class
