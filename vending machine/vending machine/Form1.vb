@@ -1,15 +1,6 @@
 ﻿Public Class Form1
     Dim money As Decimal
     Dim broke_alert As Boolean
-    Function linez()
-        totallabel.Text = money.ToString("c2")
-        If money >= 0.5 Then
-            canbuy.Text = "select option"
-        End If
-        If money < 0.5 Then
-            canbuy.Text = "insert money"
-        End If
-    End Function
     Private Sub broke_boy_Tick(sender As Object, e As EventArgs) Handles broke_boy.Tick
         If canbuy.BackColor = Color.Red Then
             canbuy.BackColor = Color.Cyan
@@ -29,11 +20,21 @@
         money = money + sender.tag
         Label1.Text = ""
         Label10.Text = ""
-        linez()
+    End Sub
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        money = 0
     End Sub
     Private Sub selectionz(sender As Object, e As EventArgs) Handles Button25.Click, Button20.Click, Button21.Click, Button22.Click
         Label10.Text = sender.Text
-        linez()
+    End Sub
+    Private Sub Linez(sender As Object, e As EventArgs) Handles Button1.Click, Button2.Click, Button3.Click, Button4.Click, Button5.Click, Button17.Click, Button18.Click, Button19.Click, Button25.Click, Button20.Click, Button21.Click, Button22.Click
+        totallabel.Text = money.ToString("c2")
+        If money >= 0.5 Then
+            canbuy.Text = "select option"
+        End If
+        If money < 0.5 Then
+            canbuy.Text = "insert money"
+        End If
     End Sub
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
         test(1, 0.5, "dart monkey", 0.75, "ice monkey", 1.35, "submarine monkey", 1.2, "glue guner monkey")
@@ -52,9 +53,8 @@
         test_assist("D", cost_d, monkey_d)
         Label1.Text = ""
         Label10.Text = ""
-        linez()
     End Function
-    Function test_assist(abcd As String, cost As String, monkey As String)
+    Function test_assist(abcd As String, cost As Decimal, monkey As String)
         If Label10.Text = abcd Then
             If money >= cost Then
                 totallabel.Text = money.ToString("c2")

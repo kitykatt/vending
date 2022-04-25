@@ -73,6 +73,8 @@ Partial Class Form1
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Label23 = New System.Windows.Forms.Label()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -89,7 +91,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(282, 89)
+        Me.Button1.Location = New System.Drawing.Point(283, 69)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(84, 30)
         Me.Button1.TabIndex = 0
@@ -99,7 +101,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(282, 125)
+        Me.Button2.Location = New System.Drawing.Point(283, 105)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(84, 30)
         Me.Button2.TabIndex = 1
@@ -109,7 +111,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(282, 161)
+        Me.Button3.Location = New System.Drawing.Point(283, 141)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(84, 30)
         Me.Button3.TabIndex = 2
@@ -119,7 +121,7 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(282, 197)
+        Me.Button4.Location = New System.Drawing.Point(283, 177)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(84, 30)
         Me.Button4.TabIndex = 3
@@ -133,7 +135,7 @@ Partial Class Form1
         Me.canbuy.BackColor = System.Drawing.Color.Cyan
         Me.canbuy.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
         Me.canbuy.ForeColor = System.Drawing.Color.Red
-        Me.canbuy.Location = New System.Drawing.Point(266, 64)
+        Me.canbuy.Location = New System.Drawing.Point(267, 44)
         Me.canbuy.Name = "canbuy"
         Me.canbuy.Size = New System.Drawing.Size(112, 22)
         Me.canbuy.TabIndex = 4
@@ -231,7 +233,7 @@ Partial Class Form1
         '
         'Button17
         '
-        Me.Button17.Location = New System.Drawing.Point(282, 257)
+        Me.Button17.Location = New System.Drawing.Point(282, 312)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(30, 30)
         Me.Button17.TabIndex = 26
@@ -240,7 +242,7 @@ Partial Class Form1
         '
         'Button18
         '
-        Me.Button18.Location = New System.Drawing.Point(309, 257)
+        Me.Button18.Location = New System.Drawing.Point(309, 312)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(30, 30)
         Me.Button18.TabIndex = 27
@@ -249,7 +251,7 @@ Partial Class Form1
         '
         'Button19
         '
-        Me.Button19.Location = New System.Drawing.Point(336, 257)
+        Me.Button19.Location = New System.Drawing.Point(336, 312)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(30, 30)
         Me.Button19.TabIndex = 28
@@ -258,7 +260,7 @@ Partial Class Form1
         '
         'Button20
         '
-        Me.Button20.Location = New System.Drawing.Point(336, 284)
+        Me.Button20.Location = New System.Drawing.Point(309, 284)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(30, 30)
         Me.Button20.TabIndex = 31
@@ -267,7 +269,7 @@ Partial Class Form1
         '
         'Button21
         '
-        Me.Button21.Location = New System.Drawing.Point(309, 284)
+        Me.Button21.Location = New System.Drawing.Point(282, 284)
         Me.Button21.Name = "Button21"
         Me.Button21.Size = New System.Drawing.Size(30, 30)
         Me.Button21.TabIndex = 30
@@ -276,7 +278,7 @@ Partial Class Form1
         '
         'Button22
         '
-        Me.Button22.Location = New System.Drawing.Point(282, 284)
+        Me.Button22.Location = New System.Drawing.Point(309, 257)
         Me.Button22.Name = "Button22"
         Me.Button22.Size = New System.Drawing.Size(30, 30)
         Me.Button22.TabIndex = 29
@@ -285,7 +287,7 @@ Partial Class Form1
         '
         'Button25
         '
-        Me.Button25.Location = New System.Drawing.Point(309, 310)
+        Me.Button25.Location = New System.Drawing.Point(336, 284)
         Me.Button25.Name = "Button25"
         Me.Button25.Size = New System.Drawing.Size(30, 30)
         Me.Button25.TabIndex = 32
@@ -385,7 +387,7 @@ Partial Class Form1
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.vending_machine.My.Resources.Resources.engine
-        Me.PictureBox3.Location = New System.Drawing.Point(190, 24)
+        Me.PictureBox3.Location = New System.Drawing.Point(186, 24)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(75, 75)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -470,7 +472,7 @@ Partial Class Form1
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(186, 86)
+        Me.Label13.Location = New System.Drawing.Point(183, 86)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(34, 13)
         Me.Label13.TabIndex = 53
@@ -557,11 +559,31 @@ Partial Class Form1
         Me.Label22.TabIndex = 60
         Me.Label22.Text = "$1.20"
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(283, 213)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(84, 38)
+        Me.Button5.TabIndex = 63
+        Me.Button5.Text = "coin exchange"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Location = New System.Drawing.Point(10, 24)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(13, 13)
+        Me.Label23.TabIndex = 64
+        Me.Label23.Text = "g"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(389, 463)
+        Me.Controls.Add(Me.Label23)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.Label22)
@@ -678,4 +700,6 @@ Partial Class Form1
     Friend WithEvents Label20 As Label
     Friend WithEvents Label21 As Label
     Friend WithEvents Label22 As Label
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Label23 As Label
 End Class
