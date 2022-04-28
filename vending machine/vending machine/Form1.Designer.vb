@@ -75,6 +75,9 @@ Partial Class Form1
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label25 = New System.Windows.Forms.Label()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -565,7 +568,7 @@ Partial Class Form1
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(84, 38)
         Me.Button5.TabIndex = 63
-        Me.Button5.Text = "coin exchange"
+        Me.Button5.Text = "coin return"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Label23
@@ -577,11 +580,37 @@ Partial Class Form1
         Me.Label23.TabIndex = 64
         Me.Label23.Text = "g"
         '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label24.Location = New System.Drawing.Point(270, 9)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(0, 22)
+        Me.Label24.TabIndex = 65
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 10
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label25.Location = New System.Drawing.Point(231, 385)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(30, 22)
+        Me.Label25.TabIndex = 66
+        Me.Label25.Text = "10"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(389, 463)
+        Me.Controls.Add(Me.Label25)
+        Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label20)
@@ -702,4 +731,7 @@ Partial Class Form1
     Friend WithEvents Label22 As Label
     Friend WithEvents Button5 As Button
     Friend WithEvents Label23 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Label25 As Label
 End Class
