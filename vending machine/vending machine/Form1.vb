@@ -1,16 +1,16 @@
 ﻿Public Class Form1
-    Dim a1 As Integer = 10
-    Dim a2 As Integer = 10
-    Dim a3 As Integer = 10
-    Dim b1 As Integer = 10
-    Dim b2 As Integer = 10
-    Dim b3 As Integer = 10
-    Dim c1 As Integer = 10
-    Dim c2 As Integer = 10
-    Dim c3 As Integer = 10
-    Dim d1 As Integer = 10
-    Dim d2 As Integer = 10
-    Dim d3 As Integer = 10
+    'Dim a1 As Integer = 10
+    Dim a1, a2, a3, b1, b2, b3, c1, c2, c3, d1, d2, d3 As Integer
+    ' Dim a3 As Integer = 10
+    'Dim b1 As Integer = 10
+    'Dim b2 As Integer = 10
+    ' Dim b3 As Integer = 10
+    'Dim c1 As Integer = 10
+    ' Dim c2 As Integer = 10
+    ' Dim c3 As Integer = 10
+    ' Dim d1 As Integer = 10
+    'Dim d2 As Integer = 10
+    'Dim d3 As Integer = 10
     Dim money As Decimal
     Dim broke_alert As Boolean
     Private Sub broke_boy_Tick(sender As Object, e As EventArgs) Handles broke_boy.Tick
