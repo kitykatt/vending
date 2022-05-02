@@ -58,7 +58,6 @@ Partial Class Form1
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.broke_boy = New System.Windows.Forms.Timer(Me.components)
         Me.stop_broke_alarm = New System.Windows.Forms.Timer(Me.components)
         Me.Label11 = New System.Windows.Forms.Label()
@@ -77,7 +76,20 @@ Partial Class Form1
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label37 = New System.Windows.Forms.Label()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -306,6 +318,7 @@ Partial Class Form1
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox10.TabIndex = 47
         Me.PictureBox10.TabStop = False
+        Me.PictureBox10.Tag = "10"
         '
         'PictureBox11
         '
@@ -316,6 +329,7 @@ Partial Class Form1
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox11.TabIndex = 46
         Me.PictureBox11.TabStop = False
+        Me.PictureBox11.Tag = "10"
         '
         'PictureBox12
         '
@@ -326,6 +340,7 @@ Partial Class Form1
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox12.TabIndex = 45
         Me.PictureBox12.TabStop = False
+        Me.PictureBox12.Tag = "10"
         '
         'PictureBox7
         '
@@ -336,6 +351,7 @@ Partial Class Form1
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox7.TabIndex = 44
         Me.PictureBox7.TabStop = False
+        Me.PictureBox7.Tag = "10"
         '
         'PictureBox8
         '
@@ -346,6 +362,7 @@ Partial Class Form1
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox8.TabIndex = 43
         Me.PictureBox8.TabStop = False
+        Me.PictureBox8.Tag = "10"
         '
         'PictureBox9
         '
@@ -356,6 +373,7 @@ Partial Class Form1
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox9.TabIndex = 42
         Me.PictureBox9.TabStop = False
+        Me.PictureBox9.Tag = "10"
         '
         'PictureBox4
         '
@@ -366,6 +384,7 @@ Partial Class Form1
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox4.TabIndex = 41
         Me.PictureBox4.TabStop = False
+        Me.PictureBox4.Tag = "10"
         '
         'PictureBox5
         '
@@ -376,6 +395,7 @@ Partial Class Form1
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox5.TabIndex = 40
         Me.PictureBox5.TabStop = False
+        Me.PictureBox5.Tag = "10"
         '
         'PictureBox6
         '
@@ -386,6 +406,7 @@ Partial Class Form1
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox6.TabIndex = 39
         Me.PictureBox6.TabStop = False
+        Me.PictureBox6.Tag = "10"
         '
         'PictureBox3
         '
@@ -396,6 +417,7 @@ Partial Class Form1
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox3.TabIndex = 38
         Me.PictureBox3.TabStop = False
+        Me.PictureBox3.Tag = "10"
         '
         'PictureBox2
         '
@@ -406,6 +428,7 @@ Partial Class Form1
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 37
         Me.PictureBox2.TabStop = False
+        Me.PictureBox2.Tag = "10"
         '
         'PictureBox1
         '
@@ -416,6 +439,7 @@ Partial Class Form1
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 36
         Me.PictureBox1.TabStop = False
+        Me.PictureBox1.Tag = "10"
         '
         'Label1
         '
@@ -436,16 +460,6 @@ Partial Class Form1
         Me.Label10.TabIndex = 49
         Me.Label10.Tag = ""
         Me.Label10.Visible = False
-        '
-        'ListBox1
-        '
-        Me.ListBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Location = New System.Drawing.Point(1, 352)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(378, 100)
-        Me.ListBox1.TabIndex = 50
         '
         'broke_boy
         '
@@ -594,15 +608,133 @@ Partial Class Form1
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 10
         '
+        'ListBox1
+        '
+        Me.ListBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.ItemHeight = 16
+        Me.ListBox1.Location = New System.Drawing.Point(1, 352)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(378, 100)
+        Me.ListBox1.TabIndex = 50
+        '
         'Label25
         '
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
-        Me.Label25.Location = New System.Drawing.Point(231, 385)
+        Me.Label25.Location = New System.Drawing.Point(329, -53)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(30, 22)
-        Me.Label25.TabIndex = 66
+        Me.Label25.TabIndex = 78
         Me.Label25.Text = "10"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Location = New System.Drawing.Point(245, 267)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(19, 13)
+        Me.Label26.TabIndex = 77
+        Me.Label26.Text = "10"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Location = New System.Drawing.Point(164, 267)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(19, 13)
+        Me.Label27.TabIndex = 76
+        Me.Label27.Text = "10"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Location = New System.Drawing.Point(80, 267)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(19, 13)
+        Me.Label28.TabIndex = 75
+        Me.Label28.Text = "10"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Location = New System.Drawing.Point(245, 186)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(19, 13)
+        Me.Label29.TabIndex = 74
+        Me.Label29.Text = "10"
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Location = New System.Drawing.Point(164, 186)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(19, 13)
+        Me.Label30.TabIndex = 73
+        Me.Label30.Text = "10"
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Location = New System.Drawing.Point(80, 186)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(19, 13)
+        Me.Label31.TabIndex = 72
+        Me.Label31.Text = "10"
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Location = New System.Drawing.Point(245, 105)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(19, 13)
+        Me.Label32.TabIndex = 71
+        Me.Label32.Text = "10"
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Location = New System.Drawing.Point(164, 105)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(19, 13)
+        Me.Label33.TabIndex = 70
+        Me.Label33.Text = "10"
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.Location = New System.Drawing.Point(80, 105)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(19, 13)
+        Me.Label34.TabIndex = 69
+        Me.Label34.Text = "10"
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.Location = New System.Drawing.Point(242, 24)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(19, 13)
+        Me.Label35.TabIndex = 68
+        Me.Label35.Text = "10"
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.Location = New System.Drawing.Point(164, 24)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(19, 13)
+        Me.Label36.TabIndex = 67
+        Me.Label36.Text = "10"
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Location = New System.Drawing.Point(80, 24)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(19, 13)
+        Me.Label37.TabIndex = 66
+        Me.Label37.Text = "10"
         '
         'Form1
         '
@@ -610,6 +742,18 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(389, 463)
         Me.Controls.Add(Me.Label25)
+        Me.Controls.Add(Me.Label26)
+        Me.Controls.Add(Me.Label27)
+        Me.Controls.Add(Me.Label28)
+        Me.Controls.Add(Me.Label29)
+        Me.Controls.Add(Me.Label30)
+        Me.Controls.Add(Me.Label31)
+        Me.Controls.Add(Me.Label32)
+        Me.Controls.Add(Me.Label33)
+        Me.Controls.Add(Me.Label34)
+        Me.Controls.Add(Me.Label35)
+        Me.Controls.Add(Me.Label36)
+        Me.Controls.Add(Me.Label37)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Button5)
@@ -714,7 +858,6 @@ Partial Class Form1
     Friend WithEvents PictureBox12 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label10 As Label
-    Friend WithEvents ListBox1 As ListBox
     Friend WithEvents broke_boy As Timer
     Friend WithEvents stop_broke_alarm As Timer
     Friend WithEvents Label11 As Label
@@ -733,5 +876,18 @@ Partial Class Form1
     Friend WithEvents Label23 As Label
     Friend WithEvents Label24 As Label
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents ListBox1 As ListBox
     Friend WithEvents Label25 As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents Label32 As Label
+    Friend WithEvents Label33 As Label
+    Friend WithEvents Label34 As Label
+    Friend WithEvents Label35 As Label
+    Friend WithEvents Label36 As Label
+    Friend WithEvents Label37 As Label
 End Class
