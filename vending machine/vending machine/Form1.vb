@@ -49,23 +49,23 @@
         End If
     End Sub
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
-        test(1, 0.5, "dart monkey", a1, 0.75, "ice monkey", a2, 1.35, "submarine monkey", a3, 1.2, "glue guner monkey", b1)
+        test(1, 0.5, "dart monkey", a1, 37, 0.75, "ice monkey", a2, 34, 1.35, "submarine monkey", a3, 31, 1.2, "glue guner monkey", b1, 28)
     End Sub
     Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
-        test(2, 1.5, "boomerang monkey", b2, 1.25, "ninja monkey", b3, 7, "super monkey", c1, 3, "farmer monkey", c2)
+        test(2, 1.5, "boomerang monkey", b2, 36, 1.25, "ninja monkey", b3, 33, 7, "super monkey", c1, 30, 3, "farmer monkey", c2, 27)
     End Sub
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
-        test(3, 2, "electrican monkey", c3, 1.7, "boat monkey", d1, 2, "magic monkey", d2, 100, "quincy nft", d3)
+        test(3, 2, "electrican monkey", c3, 35, 1.7, "boat monkey", d1, 32, 2, "magic monkey", d2, 29, 100, "quincy nft", d3, 26)
     End Sub
-    Function test(deva As Decimal, cost_a As Decimal, monkey_a As String, a_count As Integer, cost_b As Decimal, monkey_b As String, b_count As Integer, cost_c As Decimal, monkey_c As String, c_count As Integer, cost_d As Decimal, monkey_d As String, d_count As Integer)
+    Function test(deva As Decimal, cost_a As Decimal, monkey_a As String, count_a As Integer, text_a As Integer, cost_b As Decimal, monkey_b As String, count_b As Integer, text_b As Integer, cost_c As Decimal, monkey_c As String, count_c As Integer, text_c As Integer, cost_d As Decimal, monkey_d As String, count_d As Integer, text_d As Integer)
         Label1.Text = deva
-        test_assist("A", cost_a, monkey_a, a_count)
-        test_assist("B", cost_b, monkey_b, b_count)
-        test_assist("C", cost_c, monkey_c, c_count)
-        test_assist("D", cost_d, monkey_d, d_count)
+        test_assist("A", cost_a, monkey_a, count_a, text_a)
+        test_assist("B", cost_b, monkey_b, count_b, text_b)
+        test_assist("C", cost_c, monkey_c, count_c, text_c)
+        test_assist("D", cost_d, monkey_d, count_d, text_d)
         totallabel.Text = money.ToString("c2")
     End Function
-    Function test_assist(abcd As String, cost As Decimal, monkey As String, count As Integer)
+    Function test_assist(abcd As String, cost As Decimal, monkey As String, count As Integer, text As Integer)
         If Label10.Text = abcd Then
             If money >= cost And count >= 1 Then
                 ListBox1.Items.Add(monkey)
