@@ -47,17 +47,18 @@
         If money < 0.5 Then
             canbuy.Text = "insert money"
         End If
+
     End Sub
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
-        test(1, 0.5, "dart monkey", a1, 37, 0.75, "ice monkey", a2, 34, 1.35, "submarine monkey", a3, 31, 1.2, "glue guner monkey", b1, 28)
+        test(1, 0.5, "dart monkey", a1, Label37.Text, 0.75, "ice monkey", a2, Label34.Text, 1.35, "submarine monkey", a3, Label31.Text, 1.2, "glue guner monkey", b1, Label28.Text)
     End Sub
     Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
-        test(2, 1.5, "boomerang monkey", b2, 36, 1.25, "ninja monkey", b3, 33, 7, "super monkey", c1, 30, 3, "farmer monkey", c2, 27)
+        test(2, 1.5, "boomerang monkey", b2, Label36.Text, 1.25, "ninja monkey", b3, Label33.Text, 7, "super monkey", c1, Label30.Text, 3, "farmer monkey", c2, Label27.Text)
     End Sub
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
-        test(3, 2, "electrican monkey", c3, 35, 1.7, "boat monkey", d1, 32, 2, "magic monkey", d2, 29, 100, "quincy nft", d3, 26)
+        test(3, 2, "electrican monkey", c3, Label35.Text, 1.7, "boat monkey", d1, Label32.Text, 2, "magic monkey", d2, Label29.Text, 100, "quincy nft", d3, Label26.Text)
     End Sub
-    Function test(deva As Decimal, cost_a As Decimal, monkey_a As String, count_a As Integer, text_a As Integer, cost_b As Decimal, monkey_b As String, count_b As Integer, text_b As Integer, cost_c As Decimal, monkey_c As String, count_c As Integer, text_c As Integer, cost_d As Decimal, monkey_d As String, count_d As Integer, text_d As Integer)
+    Public Function test(deva As Decimal, cost_a As Decimal, monkey_a As String, count_a As Integer, text_a As Integer, cost_b As Decimal, monkey_b As String, count_b As Integer, text_b As Integer, cost_c As Decimal, monkey_c As String, count_c As Integer, text_c As Integer, cost_d As Decimal, monkey_d As String, count_d As Integer, text_d As Integer)
         Label1.Text = deva
         test_assist("A", cost_a, monkey_a, count_a, text_a)
         test_assist("B", cost_b, monkey_b, count_b, text_b)
@@ -71,11 +72,13 @@
                 ListBox1.Items.Add(monkey)
                 money = money - cost
                 count = count - 1
-                'Label25.Text = count
+                a1 = a1 - 1
+                Label37.Text = a1
             ElseIf money < cost Then
                 stop_broke_alarm.Enabled = True
                 broke_boy.Enabled = True
             End If
         End If
+        text = count
     End Function
 End Class
